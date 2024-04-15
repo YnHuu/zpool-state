@@ -1,0 +1,57 @@
+ * {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+
+
+img{
+    pointer-events:none
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+@tailwind base;
+@tailwind components;
+
+.btn {
+  @apply h-8 min-h-8 shadow-md;
+}
+
+.text-xs, 
+.text-sm,
+.text-base,
+.text-lg,
+.text-xl,
+.text-2xl,
+.text-3xl,
+.text-4xl,
+.text-5xl,
+.text-6xl,
+.text-7xl,
+.text-8xl,
+.text-9xl {
+  @apply drop-shadow
+}
+
+.input{
+  @apply input-sm focus-within:outline-none 
+}
+
+.textarea{
+  @apply focus-within:outline-none
+}
+
+.select{
+  @apply select-sm focus:outline-none
+}
+
+@tailwind utilities;

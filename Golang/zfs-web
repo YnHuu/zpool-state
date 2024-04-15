@@ -1,0 +1,9 @@
+#!/sbin/openrc-run
+name="zfs-web"
+command="/root/app/zfs-web/zfsweb"
+command_background=true
+command_args="-log /root/app/zfs-web/zfsweb.log"
+pidfile="/run/${RC_SVCNAME}.pid"
+depend() {
+    need net
+}
