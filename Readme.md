@@ -45,13 +45,13 @@ zfs-web 文件为 Alpine 服务项 可自行修改里面路径 ,并复制这个�
 rc-update add zfs-web 
 ```
 
-<img src="img/1.jpg" alt="1" style="zoom:25%;" />
+<img src="img/1.jpg" alt="1" width="300" />
 
-<img src="img/2.jpg" alt="2" style="zoom:25%;" />
+<img src="img/2.jpg" alt="2" width="300" />
 
-<img src="img/3.jpg" alt="3" style="zoom:25%;" />
+<img src="img/3.jpg" alt="3" width="300" />
 
-<img src="img/4.jpg" alt="4" style="zoom:25%;" />
+<img src="img/4.jpg" alt="4" width="300" />
 
 
 
